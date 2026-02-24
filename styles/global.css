@@ -1,5 +1,28 @@
-@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+@import "tailwindcss";
 
-html { scroll-behavior: smooth; }
-body { background: #0f172a; color: #f8fafc; font-family: sans-serif; }
-.btn-panache { @apply bg-blue-600 hover:bg-blue-500 transition-all transform hover:scale-105 px-6 py-3 rounded-lg font-bold; }
+@theme {
+  --color-brand-blue: #3b82f6;
+  --color-brand-dark: #0f172a;
+}
+
+/* Custom Utilities with a bit of panache */
+@utility btn-panache {
+  background-color: var(--color-brand-blue);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05);
+    background-color: #2563eb;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-dark);
+  color: #f8fafc;
+}
