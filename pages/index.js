@@ -100,26 +100,44 @@ export default function Home() {
   
   
       {/* CONTACT SECTION */}
-      <section id="contact" className="py-20 px-6 bg-blue-600 text-center">
-        <h2 className="text-4xl font-black mb-4 text-white">Ready to level up?</h2>
-        <p className="text-blue-100 mb-8 text-xl">Drop a line before your competitor does.</p>
-        <form className="max-w-md mx-auto space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full p-4 rounded bg-white text-slate-900" />
-          <input type="email" placeholder="Email Address" className="w-full p-4 rounded bg-white text-slate-900" />
-          <textarea placeholder="Tell me what you need..." className="w-full p-4 rounded bg-white text-slate-900 h-32"></textarea>
-          <button className="w-full bg-slate-900 text-white py-4 rounded-lg font-black uppercase tracking-widest hover:bg-slate-800 transition btn-glow">
-            Send It
-          </button>
-        </form>
-      </section>
+      <section id="contact" className="py-24 px-6 bg-blue-600">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-black mb-4 text-white uppercase tracking-tighter">Ready to level up?</h2>
+          <p className="text-blue-100 mb-12 text-xl font-medium">Drop a line before your competitor does. I actually respond.</p>
+          
+          <form action="https://api.web3forms.com/submit" method="POST" className="grid md:grid-cols-2 gap-4 text-left">
+            {/* Replace YOUR_ACCESS_KEY_HERE with the key from web3forms.com */}
+            <input type="hidden" name="access_key" value="8742279b-1a61-4a44-a4fe-f85a568e1d24" />
+            <input type="hidden" name="subject" value="New Lead from SiteIQ" />
+            <input type="checkbox" name="botcheck" className="hidden" />
 
+            <div className="space-y-2">
+              <label className="text-white font-bold ml-1">Your Name</label>
+              <input type="text" name="name" required placeholder="John Doe" className="w-full p-4 rounded-xl bg-white text-slate-900 focus:ring-4 focus:ring-blue-300 outline-none transition" />
+            </div>
+
+            <div className="space-y-2">
+              <label className="text-white font-bold ml-1">Your Email Address</label>
+              <input type="email" name="email" required placeholder="john@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 focus:ring-4 focus:ring-blue-300 outline-none transition" />
+            </div>
+
+            <div className="md:col-span-2 space-y-2">
+              <label className="text-white font-bold ml-1">The Mission</label>
+              <textarea name="message" required placeholder="Tell me what you need built..." className="w-full p-4 rounded-xl bg-white text-slate-900 h-40 focus:ring-4 focus:ring-blue-300 outline-none transition"></textarea>
+            </div>
+
+            <button type="submit" className="md:col-span-2 w-full bg-slate-900 text-white py-5 rounded-xl font-black uppercase tracking-widest hover:bg-slate-800 transition-all btn-glow text-lg">
+              Send the Signal
+            </button>
+          </form>
+        </div>
+      </section>
+  
       {/* FOOTER */}
       <footer className="py-12 border-t border-slate-800 text-center">
-        <div className="flex justify-center gap-6 mb-4">
-          <a href="https://instagram.com" className="text-slate-400 hover:text-white"><Instagram /></a>
-          <a href="https://facebook.com" className="text-slate-400 hover:text-white"><Facebook /></a>
-        </div>
-        <p className="text-slate-500">© 2026 SiteIQ. Built with Node.js and caffeine.</p>
+        <p className="text-slate-500">Codes by me; typos by my cat.</p>
+        <p className="text-slate-500">100% Hairball free.</p>
+        <p className="text-slate-500">© 2026 SiteIQ. All Rights Reserved.</p>
       </footer>
     </div>
   );
