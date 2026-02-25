@@ -31,10 +31,12 @@ export default function Home() {
         </p>
       </section>
 
-      {/* SERVICES SECTION */}
+{/* SERVICES SECTION */}
       <section id="services" className="py-20 px-6 bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black mb-12 text-center">What I actually do</h2>
+          
+          {/* THE GRID */}
           <div className="grid md:grid-cols-3 gap-8">
             
             {/* Service 1 */}
@@ -63,10 +65,20 @@ export default function Home() {
                 No 40-page "brand strategy" PDFs. Just a high-converting site that tells people who you are and why they should give you their credit card info.
               </p>
             </div>
-
           </div>
+
+          {/* CTA BOX (Placed outside the grid div) */}
+          <div className="text-center mt-16 bg-slate-800 p-8 rounded-3xl max-w-3xl mx-auto border border-blue-500/30">
+            <h3 className="text-2xl font-bold mb-4">Sick of the "Big Agency" runaround?</h3>
+            <p className="text-slate-400 mb-6">I'm just one person who's really good at this. No account managers, no hold music.</p>
+            <a href="#contact" className="btn-panache inline-block bg-blue-600 px-8 py-3 rounded-lg font-bold">
+              Let's Skip the Small Talk
+            </a>
+          </div>
+
         </div>
       </section>
+  
   
       {/* CONTACT SECTION */}
       <section id="contact" className="py-20 px-6 bg-blue-600 text-center">
