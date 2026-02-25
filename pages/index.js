@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar';
+import Navbar from '@/components/Navbar'
 import { MousePointerClick, Smartphone, Search, Instagram, Facebook, ArrowRight } from 'lucide-react';
 
 export default function Home() {
