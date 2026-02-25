@@ -33,30 +33,41 @@ export default function Home() {
 
       {/* SERVICES SECTION */}
       <section id="services" className="py-20 px-6 bg-slate-900">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-          <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition">
-            <Smartphone className="text-blue-500 mb-4" size={40} />
-            <h3 className="text-2xl font-bold mb-2">Mobile First</h3>
-            <p className="text-slate-400">Because 90% of your customers are looking at you while sitting in traffic.</p>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-black mb-12 text-center">What I actually do</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            
+            {/* Service 1 */}
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
+              <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <h3 className="text-2xl font-bold mb-2">Mobile-First (Duh)</h3>
+              <p className="text-slate-400">
+                If your site doesn't work on a phone in 2026, you don't have a website—you have a digital paperweight. I make sure yours looks sexy on every screen.
+              </p>
+            </div>
+
+            {/* Service 2 */}
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
+              <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <h3 className="text-2xl font-bold mb-2">SEO That Works</h3>
+              <p className="text-slate-400">
+                I don't sprinkle "magic keyword dust." I build fast, clean code that Google actually likes, so you stop being invisible to people with money.
+              </p>
+            </div>
+
+            {/* Service 3 */}
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
+              <Zap className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <h3 className="text-2xl font-bold mb-2">Zero Fluff</h3>
+              <p className="text-slate-400">
+                No 40-page "brand strategy" PDFs. Just a high-converting site that tells people who you are and why they should give you their credit card info.
+              </p>
+            </div>
+
           </div>
-          <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition">
-            <Search className="text-blue-500 mb-4" size={40} />
-            <h3 className="text-2xl font-bold mb-2">SEO Snappy</h3>
-            <p className="text-slate-400">Google loves fast sites. We make sure you aren't buried on page 10.</p>
-          </div>
-          <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition">
-            <MousePointerClick className="text-blue-500 mb-4" size={40} />
-            <h3 className="text-2xl font-bold mb-2">Pure Function</h3>
-            <p className="text-slate-400">Want a fancy rotating 3D donut? Sure. Want a simple "Call Now" button? Even better.</p>
-          </div>
-        </div>
-        <div className="text-center mt-12">
-           <a href="#contact" className="inline-block border-2 border-blue-500 text-blue-500 px-8 py-3 rounded-lg font-bold hover:bg-blue-500 hover:text-white transition">
-            Customize My Plan
-          </a>
         </div>
       </section>
-
+  
       {/* CONTACT SECTION */}
       <section id="contact" className="py-20 px-6 bg-blue-600 text-center">
         <h2 className="text-4xl font-black mb-4 text-white">Ready to level up?</h2>
