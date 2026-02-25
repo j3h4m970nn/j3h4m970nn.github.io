@@ -22,13 +22,32 @@ export default function Home() {
       </header>
 
       {/* ABOUT SECTION */}
-      <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">The "About Me" Part</h2>
-        <p className="text-lg text-slate-300 leading-relaxed">
-          Look, you're busy running a real business. You don't have time to learn what a "favicon" is. 
-          SiteIQ was born because local businesses deserve better than a 2004-era template that breaks on mobile. 
-          I build it, you own it, and your customers actually enjoy looking at it. 
-        </p>
+      <section id="about" className="py-24 px-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl font-black mb-6 italic text-blue-500">The "About Me" Part.</h2>
+            <p className="text-lg text-slate-300 leading-relaxed mb-4">
+              I didn't start SiteIQ to win design awards that only other nerds care about. I started it because I saw local "mom and pop" shops getting quoted $10k for websites that look like they were made in a microwave.
+            </p>
+            <p className="text-lg text-slate-300 leading-relaxed">
+              You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and actually makes the phone ring. That’s what I do. No fluff, no bells you didn't ask for, just results.
+            </p>
+          </div>
+          <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
+            <h4 className="text-xl font-bold mb-4 text-white">The SiteIQ Promise:</h4>
+            <ul className="space-y-4 text-slate-400">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-bold">✓</span> No corporate buzzwords.
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-bold">✓</span> No "subscription" traps.
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-bold">✓</span> A site you actually own.
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
 {/* SERVICES SECTION */}
