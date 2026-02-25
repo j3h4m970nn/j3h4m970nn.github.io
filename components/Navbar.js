@@ -10,9 +10,9 @@ export default function Navbar() {
       </div>
       
       <div className="hidden md:flex gap-8 font-medium">
-        <a href="#about" className="hover:text-blue-400 transition-colors btn-glo">About</a>
-        <a href="#services" className="hover:text-blue-400 transition-colors btn-glo">Services</a>
-        <a href="#contact" className="hover:text-blue-400 transition-colors btn-glo">Contact</a>
+        <a href="#about" className="hover:text-blue-400 transition-colors btn-glow">About</a>
+        <a href="#services" className="hover:text-blue-400 transition-colors btn-glow">Services</a>
+        <a href="#contact" className="hover:text-blue-400 transition-colors btn-glow">Contact</a>
       </div>
 
       <div className="flex items-center">
