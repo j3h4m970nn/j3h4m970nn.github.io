@@ -15,7 +15,7 @@ export default function Home() {
           We build sharp, high-performance sites for local heroes. No corporate fluff, no "premium" air-breathing fees. Just pure SiteIQ.
         </p>
         <div className="flex justify-center gap-4">
-          <a href="#services" className="bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-blue-500 transition">
+          <a href="#services" className="bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-blue-500 transition btn-glow">
             See the Goods <ArrowRight size={20}/>
           </a>
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
           <div className="text-center mt-16 bg-slate-800 p-8 rounded-3xl max-w-3xl mx-auto border border-blue-500/30">
             <h3 className="text-2xl font-bold mb-4">Sick of the "Big Agency" runaround?</h3>
             <p className="text-slate-400 mb-6">I'm just one person who's really good at this. No account managers, no hold music.</p>
-            <a href="#contact" className="btn-panache inline-block bg-blue-600 px-8 py-3 rounded-lg font-bold">
+            <a href="#contact" className="btn-panache inline-block bg-blue-600 px-8 py-3 rounded-lg font-bold btn-glow">
               Let's Skip the Small Talk
             </a>
           </div>
@@ -107,7 +107,7 @@ export default function Home() {
           <input type="text" placeholder="Your Name" className="w-full p-4 rounded bg-white text-slate-900" />
           <input type="email" placeholder="Email Address" className="w-full p-4 rounded bg-white text-slate-900" />
           <textarea placeholder="Tell me what you need..." className="w-full p-4 rounded bg-white text-slate-900 h-32"></textarea>
-          <button className="w-full bg-slate-900 text-white py-4 rounded-lg font-black uppercase tracking-widest hover:bg-slate-800 transition">
+          <button className="w-full bg-slate-900 text-white py-4 rounded-lg font-black uppercase tracking-widest hover:bg-slate-800 transition btn-glow">
             Send It
           </button>
         </form>
