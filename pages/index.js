@@ -134,6 +134,7 @@ export default function Home() {
       </section>
   
       {/* FOOTER */}
+   <div className="space-y-2">
       <footer className="py-12 border-t border-slate-800 text-center">
         <p className="text-slate-500">Codes by me; typos by my cat.</p>
         <p className="text-slate-500">100% Hairball free.</p>
