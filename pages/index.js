@@ -30,7 +30,7 @@ export default function Home() {
               I didn't start SiteIQ to win design awards that only other nerds care about. I started it because I saw local "mom and pop" shops getting quoted $10k for websites that look like they were made in a microwave.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and actually makes the phone ring. That’s what I do. No fluff, no bells you didn't ask for, just results.
+              I understand how valuable your time is.You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and actually makes the phone ring. That’s what we do. No fluff, no features you didn't ask for, just results.
             </p>
           </div>
           <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
@@ -63,7 +63,7 @@ export default function Home() {
               <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-2">Mobile-First (Duh)</h3>
               <p className="text-slate-400">
-                If your site doesn't work on a phone in 2026, you don't have a website—you have a digital paperweight. I make sure yours looks sexy on every screen.
+                If your site doesn't work on a phone in 2026, you don't have a website—you have a digital paperweight. We make sure your site looks sexy on every screen.
               </p>
             </div>
 
@@ -72,13 +72,13 @@ export default function Home() {
               <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-2">SEO That Works</h3>
               <p className="text-slate-400">
-                I don't sprinkle "magic keyword dust." I build fast, clean code that Google actually likes, so you stop being invisible to people with money.
+                I don't sprinkle "magic keyword dust." I build fast, clean code that Google actually likes, so you stop being invisible online.
               </p>
             </div>
 
             {/* Service 3 */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
-              <Zap className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-2">Zero Fluff</h3>
               <p className="text-slate-400">
                 No 40-page "brand strategy" PDFs. Just a high-converting site that tells people who you are and why they should give you their credit card info.
