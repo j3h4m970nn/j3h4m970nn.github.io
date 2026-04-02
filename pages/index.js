@@ -144,7 +144,7 @@ export default function Home() {
             <p className="text-slate-500 italic">Codes by me; typos by my cat.</p>
             {/* FOOTER IMAGE CODE: Replace 'cat-profile.png' with your actual filename */}
             <img 
-              src="/cat-profile.png" 
+              src="/footer.png" 
               alt="SiteIQ Mascot" 
               className="w-10 h-10 rounded-full object-cover border border-slate-700" 
             />
