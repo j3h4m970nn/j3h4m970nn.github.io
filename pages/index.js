@@ -114,25 +114,25 @@ export default function Home() {
       <section id="contact" className="py-24 px-6 bg-blue-500">
         <div className="max-w-4xl mx-auto">
           <p className="text-center text-blue-100 mb-12 text-xl font-bold uppercase tracking-[0.3em]">
-            Direct to James. 100% Hairball Free.
+            Direct to James. Please include up-to-date contact information and an idea of what you want to builid. I respond to all messages within 24 hours. Thank you!
           </p>
           
           <form action="https://api.web3forms.com/submit" method="POST" className="grid md:grid-cols-2 gap-4 text-left">
             <input type="hidden" name="access_key" value="8742279b-1a61-4a44-a4fe-f85a568e1d24" />
             <div className="space-y-2">
               <label className="text-white font-bold ml-1">Your Name</label>
-              <input type="text" name="name" required placeholder="John Doe" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
+              <input type="text" name="name" required placeholder="Chuck Norris" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
             </div>
             <div className="space-y-2">
               <label className="text-white font-bold ml-1">Your Email Address</label>
-              <input type="email" name="email" required placeholder="john@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
+              <input type="email" name="email" required placeholder="youremail@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
             </div>
             <div className="md:col-span-2 space-y-2">
               <label className="text-white font-bold ml-1">The Mission</label>
               <textarea name="message" required placeholder="Tell me what you need built..." className="w-full p-4 rounded-xl bg-white text-slate-900 h-40 outline-none transition focus:ring-4 focus:ring-blue-300"></textarea>
             </div>
             <button type="submit" className="md:col-span-2 w-full bg-slate-900 text-white py-5 rounded-xl font-black uppercase tracking-widest hover:bg-slate-800 transition-all text-lg shadow-2xl">
-              Send the Signal
+             SEND
             </button>
           </form>
         </div>
