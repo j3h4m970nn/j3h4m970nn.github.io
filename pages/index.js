@@ -114,7 +114,7 @@ export default function Home() {
       <section id="contact" className="py-24 px-6 bg-blue-500">
         <div className="max-w-4xl mx-auto">
           <p className="text-center text-blue-100 mb-12 text-xl font-bold uppercase tracking-[0.3em]">
-            Direct to James. Please include up-to-date contact information and an idea of what you want to builid. I respond to all messages within 24 hours. Thank you!
+            Send me a message. I respond to all meassages within 24 hours!
           </p>
           
           <form action="https://api.web3forms.com/submit" method="POST" className="grid md:grid-cols-2 gap-4 text-left">
