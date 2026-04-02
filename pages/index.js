@@ -37,13 +37,12 @@ export default function Home() {
 <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
   {/* Header: Large, Bold, and Straight (No Italics) */}
   <h4 className="text-3xl md:text-4xl font-black mb-6 text-white tracking-tighter uppercase">
-    The SiteIQ Promise:
+    Our Mission:
   </h4>
 
   {/* Paragraph: Clean and readable */}
   <p className="text-lg text-slate-300 leading-relaxed mb-8 font-medium max-w-2xl">
-    SiteIQ exists to bridge the gap between local expertise and world-class technology. 
-    We provide the technical foundation for your next level of growth, creating 
+    SiteIQ exists to bridge the gap between local expertise and world-class technology. We provide the technical foundation for your next level of growth, creating 
     seamless digital experiences that turn every visitor into a lasting connection.
   </p>
 
@@ -56,7 +55,7 @@ export default function Home() {
       <span className="text-blue-500 font-black">✓</span> No "subscription" traps.
     </li>
     <li className="flex items-start gap-2">
-      <span className="text-blue-500 font-black">✓</span> A site you actually own.
+      <span className="text-blue-500 font-black">✓</span> A site you love (and actually own.)
     </li>
   </ul>
 </div>
