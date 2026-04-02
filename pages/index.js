@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import { MousePointerClick, Smartphone, Search, Instagram, Facebook, ArrowRight } from 'lucide-react';
+import { MousePointerClick, Smartphone, Search, Instagram, Facebook, ArrowRight, Lightbulb } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           Websites that don't <span className="text-blue-500 underline">suck.</span>
         </h1>
         <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-          We build sharp, high-performance sites for local heroes. No corporate fluff, no "premium" air-breathing fees. Just pure SiteIQ.
+          We build intelligent, high-performance sites for local heroes. No corporate fluff, no "premium" air-breathing fees. Just pure SiteIQ.
         </p>
         <div className="flex justify-center gap-4">
           <a href="#services" className="bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-blue-500 transition btn-glow">
@@ -30,11 +30,16 @@ export default function Home() {
               I didn't start SiteIQ to win design awards that only other nerds care about. I started it because I saw local "mom and pop" shops getting quoted $10k for websites that look like they were made in a microwave.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              I understand how valuable your time is.You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and actually makes the phone ring. That’s what we do. No fluff, no features you didn't ask for, just results.
+              Your time is valuable. You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and commands attention the second it hits the screen. That’s what we do. No fluff, just results.
             </p>
           </div>
           <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
             <h4 className="text-xl font-bold mb-4 text-white">The SiteIQ Promise:</h4>
+        <p className="text-2xl md:text-3xl text-white leading-relaxed mb-10 font-medium">
+    SiteIQ exists to bridge the gap between local expertise and world-class technology. 
+    We provide the technical foundation for your next level of growth, creating 
+    seamless digital experiences that turn every visitor into a lasting connection.
+  </p>
             <ul className="space-y-4 text-slate-400">
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 font-bold">✓</span> No corporate buzzwords.
@@ -53,7 +58,7 @@ export default function Home() {
 {/* SERVICES SECTION */}
       <section id="services" className="py-20 px-6 bg-slate-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-black mb-12 text-center">What I actually do</h2>
+          <h2 className="text-4xl font-black mb-12 text-center">What We Actually Do</h2>
           
           {/* THE GRID */}
           <div className="grid md:grid-cols-3 gap-8">
@@ -61,7 +66,7 @@ export default function Home() {
             {/* Service 1 */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
               <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-2">Mobile-First (Duh)</h3>
+              <h3 className="text-2xl font-bold mb-2">Mobile-First</h3>
               <p className="text-slate-400">
                 If your site doesn't work on a phone in 2026, you don't have a website—you have a digital paperweight. We make sure your site looks sexy on every screen.
               </p>
@@ -70,15 +75,23 @@ export default function Home() {
             {/* Service 2 */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
               <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-2">SEO That Works</h3>
-              <p className="text-slate-400">
-                I don't sprinkle "magic keyword dust." I build fast, clean code that Google actually likes, so you stop being invisible online.
-              </p>
+              <h3 className="text-2xl font-bold mb-2">Search Engine Optimization</h3>
+             <p className="text-gray-400 text-lg md:text-xl leading-relaxed max-w-3xl">
+  We skip the gimmicks and focus on {" "}
+  <span className="text-white font-bold tracking-tight">
+    technical integrity
+  </span>. 
+  We build lean, high-performance code that search engines prioritize and users trust. {" "}
+  
+  <span className="text-blue-500 font-semibold italic drop-shadow-[0_0_12px_rgba(59,130,246,0.5)]">
+    SiteIQ ensures your digital presence matches your professional caliber.
+  </span>
+</p>
             </div>
 
             {/* Service 3 */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group">
-              <search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <Lightbulb className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-2">Zero Fluff</h3>
               <p className="text-slate-400">
                 No 40-page "brand strategy" PDFs. Just a high-converting site that tells people who you are and why they should give you their credit card info.
@@ -89,7 +102,7 @@ export default function Home() {
           {/* CTA BOX (Placed outside the grid div) */}
           <div className="text-center mt-16 bg-slate-800 p-8 rounded-3xl max-w-3xl mx-auto border border-blue-500/30">
             <h3 className="text-2xl font-bold mb-4">Sick of the "Big Agency" runaround?</h3>
-            <p className="text-slate-400 mb-6">I'm just one person who's really good at this. No account managers, no hold music.</p>
+            <p className="text-slate-400 mb-6">I'm just one person who's really good at this. No account managers, no hold music, just me and my cat.</p>
             <a href="#contact" className="btn-panache inline-block bg-blue-600 px-8 py-3 rounded-lg font-bold btn-glow">
               Let's Skip the Small Talk
             </a>
