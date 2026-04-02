@@ -33,9 +33,8 @@ export default function Home() {
               Your time is valuable. You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and commands attention the second it hits the screen. That’s what we do. No fluff, just results.
             </p>
           </div>
-         <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl"
-
-  <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
+        
+<div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
   {/* Header: Large, Bold, and Straight (No Italics) */}
   <h4 className="text-3xl md:text-4xl font-black mb-6 text-white tracking-tighter uppercase">
     The SiteIQ Promise:
