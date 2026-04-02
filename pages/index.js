@@ -125,7 +125,7 @@ export default function Home() {
             </div>
             <div className="space-y-2">
               <label className="text-white font-bold ml-1">Your Email Address</label>
-              <input type="email" name="email" required placeholder="youremail@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
+              <input type="email" name="email" required placeholder="chuck@chucknorris.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
             </div>
             <div className="md:col-span-2 space-y-2">
               <label className="text-white font-bold ml-1">The Mission</label>
