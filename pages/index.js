@@ -64,7 +64,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Service 2: SEO - Text effects removed from the end */}
+            {/* Service 2: SEO */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
               <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION - Italics removed from Header */}
+      {/* ABOUT SECTION */}
       <section id="about" className="py-24 px-6 bg-slate-800/30">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-black mb-8 text-blue-500 uppercase tracking-tighter">The "About Me" Part.</h2>
@@ -141,7 +141,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER - Image height matches all 3 lines */}
+      {/* FOOTER */}
       <footer className="py-12 border-t border-slate-800 text-center">
         <div className="max-w-xl mx-auto flex items-center justify-center gap-6">
           <div className="text-slate-500 text-sm text-right space-y-1">
@@ -149,10 +149,11 @@ export default function Home() {
             <p>100% Hairball free.</p>
             <p>© 2026 SiteIQ. All Rights Reserved.</p>
           </div>
+          {/* Borders and formatting removed to display raw image */}
           <img 
             src="/footer.png" 
             alt="SiteIQ Mascot" 
-            className="w-20 h-20 rounded-2xl object-cover border border-slate-700 shadow-lg" 
+            className="w-20 h-20 shadow-lg" 
           />
         </div>
       </footer>
