@@ -9,13 +9,13 @@ export default function Home() {
       {/* HERO SECTION */}
       <header className="py-24 px-6 text-center bg-gradient-to-b from-slate-900 to-slate-800">
         <h1 className="text-6xl font-extrabold mb-6 tracking-tight">
-          Websites that don't <span className="text-blue-500 underline">suck.</span>
+          Websites that don't <span className="text-blue-400 underline">suck.</span>
         </h1>
         <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
           We build intelligent, high-performance sites for local heroes. No corporate fluff, no "premium" air-breathing fees. Just pure SiteIQ.
         </p>
         <div className="flex justify-center gap-4">
-          <a href="#services" className="bg-blue-600 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-blue-500 transition btn-glow">
+          <a href="#services" className="bg-blue-500 px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-blue-400 transition btn-glow">
             See the Goods <ArrowRight size={20}/>
           </a>
         </div>
@@ -24,7 +24,7 @@ export default function Home() {
       {/* OUR MISSION SECTION */}
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-slate-800 p-8 md:p-12 rounded-2xl border-t-4 border-blue-600 shadow-2xl">
+          <div className="bg-slate-800 p-8 md:p-12 rounded-2xl border-t-4 border-blue-500 shadow-2xl">
             <h4 className="text-3xl md:text-4xl font-black mb-6 text-white tracking-tighter uppercase">
               Our Mission:
             </h4>
@@ -33,13 +33,13 @@ export default function Home() {
             </p>
             <ul className="inline-block text-left space-y-4 text-white font-bold text-lg">
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 font-black">✓</span> No corporate buzzwords.
+                <span className="text-blue-400 font-black">✓</span> No corporate buzzwords.
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 font-black">✓</span> No "subscription" traps.
+                <span className="text-blue-400 font-black">✓</span> No "subscription" traps.
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 font-black">✓</span> A site you love (and actually own.)
+                <span className="text-blue-400 font-black">✓</span> A site you love (and actually own.)
               </li>
             </ul>
           </div>
@@ -54,8 +54,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 text-left">
             
             {/* Service 1: Mobile-First */}
-            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-400 transition group bg-slate-800/50">
+              <Smartphone className="text-blue-400 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Mobile-First
               </h3>
@@ -64,22 +64,22 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Service 2: SEO */}
-            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
+            {/* Service 2: SEO - technical integrity now unbolded */}
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-400 transition group bg-slate-800/50">
+              <Search className="text-blue-400 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Search Engine Optimization
               </h3>
               <p className="text-slate-400 text-lg leading-relaxed">
-                We skip the gimmicks and focus on <span className="text-white font-bold">technical integrity</span>. 
+                We skip the gimmicks and focus on <span className="text-white font-normal">technical integrity</span>. 
                 We build lean, high-performance code that search engines prioritize. 
                 SiteIQ ensures your digital presence matches your professional caliber.
               </p>
             </div>
 
             {/* Service 3: Zero Fluff */}
-            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Lightbulb className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
+            <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-400 transition group bg-slate-800/50">
+              <Lightbulb className="text-blue-400 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Zero Fluff
               </h3>
@@ -89,10 +89,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="text-center mt-16 bg-slate-800 p-8 rounded-3xl max-w-3xl mx-auto border border-blue-500/30">
+          {/* SICK OF AGENCY RUNAROUND - Font matched to text-lg */}
+          <div className="text-center mt-16 bg-slate-800 p-8 rounded-3xl max-w-3xl mx-auto border border-blue-400/30">
             <h3 className="text-2xl font-bold mb-4">Sick of the "Big Agency" runaround?</h3>
-            <p className="text-slate-400 mb-6">I'm just one person who's really good at this. No account managers, no hold music, just me and my cat.</p>
-            <a href="#contact" className="inline-block bg-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition btn-glow">
+            <p className="text-slate-400 text-lg mb-6">I'm just one person who's really good at this. No account managers, no hold music, just me and my cat.</p>
+            <a href="#contact" className="inline-block bg-blue-500 px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition btn-glow">
               Let's Skip the Small Talk
             </a>
           </div>
@@ -102,7 +103,7 @@ export default function Home() {
       {/* ABOUT SECTION */}
       <section id="about" className="py-24 px-6 bg-slate-800/30">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-black mb-8 text-blue-500 uppercase tracking-tighter">The "About Me" Part.</h2>
+          <h2 className="text-4xl font-black mb-8 text-blue-400 uppercase tracking-tighter">The "About Me" Part.</h2>
           <div className="space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
               I didn't start SiteIQ to win design awards that only other nerds care about. I started it because I saw local "mom and pop" shops getting quoted $10k for websites that look like they were made in a microwave.
@@ -114,8 +115,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
-      <section id="contact" className="py-24 px-6 bg-blue-600">
+      {/* CONTACT SECTION - Lightened to blue-500 */}
+      <section id="contact" className="py-24 px-6 bg-blue-500">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-black mb-4 text-white uppercase tracking-tighter">Ready to level up?</h2>
           <p className="text-blue-100 mb-12 text-xl font-medium">Drop a line before your competitor does. I actually respond.</p>
@@ -141,20 +142,19 @@ export default function Home() {
         </div>
       </section>
 
-   {/* FOOTER */}
+      {/* FOOTER - Doubled image again to h-80, entire text block bolded */}
       <footer className="py-12 border-t border-slate-800 text-center">
-        <div className="max-w-2xl mx-auto flex items-center justify-center gap-10">
-          <div className="text-slate-500 text-lg text-right space-y-2">
+        <div className="max-w-3xl mx-auto flex items-center justify-center gap-12">
+          <div className="text-slate-500 text-lg text-right space-y-2 font-bold">
             <p className="italic">Codes by me; typos by my cat.</p>
             <p>100% Hairball free.</p>
             <p>© 2026 SiteIQ. All Rights Reserved.</p>
           </div>
           
-          {/* Doubled height to h-40, width scales automatically */}
           <img 
             src="/footer.png" 
             alt="SiteIQ Mascot" 
-            className="h-40 w-auto object-contain" 
+            className="h-80 w-auto object-contain" 
           />
         </div>
       </footer>
