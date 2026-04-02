@@ -31,7 +31,6 @@ export default function Home() {
             <p className="text-lg text-slate-300 leading-relaxed mb-8 font-medium mx-auto">
               SiteIQ exists to bridge the gap between local expertise and world-class technology. We provide the technical foundation for your next level of growth, creating seamless digital experiences that turn every visitor into a lasting connection.
             </p>
-            {/* List text size now matches paragraph (text-lg) */}
             <ul className="inline-block text-left space-y-4 text-white font-bold text-lg">
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 font-black">✓</span> No corporate buzzwords.
@@ -56,7 +55,7 @@ export default function Home() {
             
             {/* Service 1: Mobile-First */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Mobile-First
               </h3>
@@ -67,22 +66,20 @@ export default function Home() {
 
             {/* Service 2: SEO */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Search Engine Optimization
               </h3>
               <p className="text-slate-400 text-lg leading-relaxed">
                 We skip the gimmicks and focus on <span className="text-white font-bold">technical integrity</span>. 
-                We build lean, high-performance code that search engines prioritize. {" "}
-                <span className="transition-all duration-300 group-hover:text-white group-hover:font-bold group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
-                  SiteIQ ensures your digital presence matches your professional caliber.
-                </span>
+                We build lean, high-performance code that search engines prioritize. 
+                SiteIQ ensures your digital presence matches your professional caliber.
               </p>
             </div>
 
             {/* Service 3: Zero Fluff */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
-              <Lightbulb className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
+              <Lightbulb className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                 Zero Fluff
               </h3>
@@ -130,37 +127,4 @@ export default function Home() {
               <input type="text" name="name" required placeholder="John Doe" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
             </div>
             <div className="space-y-2">
-              <label className="text-white font-bold ml-1">Your Email Address</label>
-              <input type="email" name="email" required placeholder="john@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
-            </div>
-            <div className="md:col-span-2 space-y-2">
-              <label className="text-white font-bold ml-1">The Mission</label>
-              <textarea name="message" required placeholder="Tell me what you need built..." className="w-full p-4 rounded-xl bg-white text-slate-900 h-40 outline-none transition focus:ring-4 focus:ring-blue-300"></textarea>
-            </div>
-            <button type="submit" className="md:col-span-2 w-full bg-slate-900 text-white py-5 rounded-xl font-black uppercase tracking-widest hover:bg-slate-800 transition-all text-lg">
-              Send the Signal
-            </button>
-          </form>
-        </div>
-      </section>
-
-      {/* FOOTER */}
-      <footer className="py-12 border-t border-slate-800 text-center">
-        <div className="flex flex-col items-center justify-center gap-4">
-          <div className="flex items-center gap-3">
-            <p className="text-slate-500 italic">Codes by me; typos by my cat.</p>
-            <img 
-              src="/footer.png" 
-              alt="SiteIQ Mascot" 
-              className="w-10 h-10 rounded-full object-cover border border-slate-700" 
-            />
-          </div>
-          <div className="text-slate-500 text-sm">
-            <p>100% Hairball free.</p>
-            <p>© 2026 SiteIQ. All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+              <label className="text-white font-bold ml-1">Your
