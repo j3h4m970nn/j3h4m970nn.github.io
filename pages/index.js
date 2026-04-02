@@ -64,7 +64,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Service 2: SEO */}
+            {/* Service 2: SEO - Text effects removed from the end */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
               <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]" size={40} />
               <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
@@ -99,10 +99,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
+      {/* ABOUT SECTION - Italics removed from Header */}
       <section id="about" className="py-24 px-6 bg-slate-800/30">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-black mb-8 italic text-blue-500">The "About Me" Part.</h2>
+          <h2 className="text-4xl font-black mb-8 text-blue-500 uppercase tracking-tighter">The "About Me" Part.</h2>
           <div className="space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
               I didn't start SiteIQ to win design awards that only other nerds care about. I started it because I saw local "mom and pop" shops getting quoted $10k for websites that look like they were made in a microwave.
@@ -127,4 +127,35 @@ export default function Home() {
               <input type="text" name="name" required placeholder="John Doe" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
             </div>
             <div className="space-y-2">
-              <label className="text-white font-bold ml-1">Your
+              <label className="text-white font-bold ml-1">Your Email Address</label>
+              <input type="email" name="email" required placeholder="john@example.com" className="w-full p-4 rounded-xl bg-white text-slate-900 outline-none transition focus:ring-4 focus:ring-blue-300" />
+            </div>
+            <div className="md:col-span-2 space-y-2">
+              <label className="text-white font-bold ml-1">The Mission</label>
+              <textarea name="message" required placeholder="Tell me what you need built..." className="w-full p-4 rounded-xl bg-white text-slate-900 h-40 outline-none transition focus:ring-4 focus:ring-blue-300"></textarea>
+            </div>
+            <button type="submit" className="md:col-span-2 w-full bg-slate-900 text-white py-5 rounded-xl font-black uppercase tracking-widest hover:bg-slate-800 transition-all text-lg">
+              Send the Signal
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* FOOTER - Image height matches all 3 lines */}
+      <footer className="py-12 border-t border-slate-800 text-center">
+        <div className="max-w-xl mx-auto flex items-center justify-center gap-6">
+          <div className="text-slate-500 text-sm text-right space-y-1">
+            <p className="italic">Codes by me; typos by my cat.</p>
+            <p>100% Hairball free.</p>
+            <p>© 2026 SiteIQ. All Rights Reserved.</p>
+          </div>
+          <img 
+            src="/footer.png" 
+            alt="SiteIQ Mascot" 
+            className="w-20 h-20 rounded-2xl object-cover border border-slate-700 shadow-lg" 
+          />
+        </div>
+      </footer>
+    </div>
+  );
+}
