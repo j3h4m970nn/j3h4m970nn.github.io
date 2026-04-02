@@ -33,19 +33,22 @@ export default function Home() {
               Your time is valuable. You’re busy running a business; you don't need "synergy" or "brand storytelling." You need a site that loads fast, works on a phone, and commands attention the second it hits the screen. That’s what we do. No fluff, just results.
             </p>
           </div>
-         <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
-  {/* Header: Now larger and more dominant */}
-  <h4 className="text-3xl md:text-4xl font-black mb-6 text-white italic tracking-tight">
+         <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl"
+
+  <div className="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-600 shadow-2xl">
+  {/* Header: Large, Bold, and Straight (No Italics) */}
+  <h4 className="text-3xl md:text-4xl font-black mb-6 text-white tracking-tighter uppercase">
     The SiteIQ Promise:
   </h4>
 
-  {/* Paragraph: Now smaller (text-lg) to act as the sub-text */}
+  {/* Paragraph: Clean and readable */}
   <p className="text-lg text-slate-300 leading-relaxed mb-8 font-medium max-w-2xl">
     SiteIQ exists to bridge the gap between local expertise and world-class technology. 
-    We provide the technical foundation for your next level of growth, forging digital experiences that turn visitors into customers.
+    We provide the technical foundation for your next level of growth, creating 
+    seamless digital experiences that turn every visitor into a lasting connection.
   </p>
 
-  {/* List: Text is now bold and white for maximum contrast */}
+  {/* List: Bold and high-contrast */}
   <ul className="space-y-4 text-white font-bold">
     <li className="flex items-start gap-2">
       <span className="text-blue-500 font-black">✓</span> No corporate buzzwords.
