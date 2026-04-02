@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* OUR MISSION SECTION - NOW CENTERED */}
+      {/* OUR MISSION SECTION */}
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-slate-800 p-8 md:p-12 rounded-2xl border-t-4 border-blue-600 shadow-2xl">
@@ -31,7 +31,8 @@ export default function Home() {
             <p className="text-lg text-slate-300 leading-relaxed mb-8 font-medium mx-auto">
               SiteIQ exists to bridge the gap between local expertise and world-class technology. We provide the technical foundation for your next level of growth, creating seamless digital experiences that turn every visitor into a lasting connection.
             </p>
-            <ul className="inline-block text-left space-y-4 text-white font-bold">
+            {/* List text size now matches paragraph (text-lg) */}
+            <ul className="inline-block text-left space-y-4 text-white font-bold text-lg">
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 font-black">✓</span> No corporate buzzwords.
               </li>
@@ -56,16 +57,20 @@ export default function Home() {
             {/* Service 1: Mobile-First */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
               <Smartphone className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-2">Mobile-First</h3>
+              <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+                Mobile-First
+              </h3>
               <p className="text-slate-400 text-lg leading-relaxed">
                 If your site doesn't work on a phone in 2026, you don't have a website—you have a digital paperweight. We make sure your site looks sexy on every screen.
               </p>
             </div>
 
-            {/* Service 2: SEO with WHITE HOVER GLOW */}
+            {/* Service 2: SEO */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
               <Search className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-2">Search Engine Optimization</h3>
+              <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+                Search Engine Optimization
+              </h3>
               <p className="text-slate-400 text-lg leading-relaxed">
                 We skip the gimmicks and focus on <span className="text-white font-bold">technical integrity</span>. 
                 We build lean, high-performance code that search engines prioritize. {" "}
@@ -78,7 +83,9 @@ export default function Home() {
             {/* Service 3: Zero Fluff */}
             <div className="p-8 border border-slate-800 rounded-2xl hover:border-blue-500 transition group bg-slate-800/50">
               <Lightbulb className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-2">Zero Fluff</h3>
+              <h3 className="text-2xl font-bold mb-2 transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
+                Zero Fluff
+              </h3>
               <p className="text-slate-400 text-lg leading-relaxed">
                 No 40-page "brand strategy" PDFs. Just a high-converting site that tells people who you are and why they should choose you over the competition.
               </p>
@@ -95,7 +102,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION - NOW BELOW SERVICES & CENTERED */}
+      {/* ABOUT SECTION */}
       <section id="about" className="py-24 px-6 bg-slate-800/30">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-black mb-8 italic text-blue-500">The "About Me" Part.</h2>
@@ -137,12 +144,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER WITH IMAGE */}
+      {/* FOOTER */}
       <footer className="py-12 border-t border-slate-800 text-center">
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex items-center gap-3">
             <p className="text-slate-500 italic">Codes by me; typos by my cat.</p>
-            {/* FOOTER IMAGE CODE: Replace 'cat-profile.png' with your actual filename */}
             <img 
               src="/footer.png" 
               alt="SiteIQ Mascot" 
