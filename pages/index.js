@@ -141,19 +141,20 @@ export default function Home() {
         </div>
       </section>
 
-     {/* FOOTER */}
+   {/* FOOTER */}
       <footer className="py-12 border-t border-slate-800 text-center">
-        <div className="max-w-xl mx-auto flex items-center justify-center gap-6">
-          <div className="text-slate-500 text-sm text-right space-y-1">
+        <div className="max-w-2xl mx-auto flex items-center justify-center gap-10">
+          <div className="text-slate-500 text-lg text-right space-y-2">
             <p className="italic">Codes by me; typos by my cat.</p>
             <p>100% Hairball free.</p>
             <p>© 2026 SiteIQ. All Rights Reserved.</p>
           </div>
-          {/* Height fixed to match text; width scales naturally to prevent distortion */}
+          
+          {/* Doubled height to h-40, width scales automatically */}
           <img 
             src="/footer.png" 
             alt="SiteIQ Mascot" 
-            className="h-20 w-auto object-contain" 
+            className="h-40 w-auto object-contain" 
           />
         </div>
       </footer>
